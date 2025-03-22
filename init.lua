@@ -3,4 +3,4 @@ require 'ryankline122.keymaps'
 require 'ryankline122.autocommands'
 require 'ryankline122.plugins'
 
-vim.lsp.set_log_level 'debug'
+-- vim.lsp.set_log_level 'debug'
