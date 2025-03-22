@@ -19,8 +19,13 @@ Servers = {
 
   -- Java
   jdtls = {},
+
   -- JS/TS
-  tsserver = {},
+  ts_ls = {},
+
+  --
+  -- html_lsp = {},
+
   -- Lua
   lua_ls = {
     -- cmd = { ... },

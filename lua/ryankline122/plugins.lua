@@ -436,7 +436,10 @@ require('lazy').setup({
         --  the list of additional_vim_regex_highlighting and disabled languages for indent.
         additional_vim_regex_highlighting = { 'ruby' },
       },
-      indent = { enable = true, disable = { 'ruby' } },
+      indent = {
+        enable = true,
+        disable = { 'ruby' },
+      },
     },
     -- There are additional nvim-treesitter modules that you can use to interact
     -- with nvim-treesitter. You should go explore a few and see what interests you:
@@ -456,7 +459,7 @@ require('lazy').setup({
   --  Uncomment any of the lines below to enable them (you will need to restart nvim).
   --
   -- require 'kickstart.plugins.debug',
-  require 'kickstart.plugins.indent_line',
+  -- require 'kickstart.plugins.indent_line',
   -- require 'kickstart.plugins.lint',
   require 'kickstart.plugins.autopairs',
   -- require 'kickstart.plugins.neo-tree',
@@ -471,6 +474,36 @@ require('lazy').setup({
       TerminalConfig()
     end,
   },
+
+  {
+    'nvim-tree/nvim-tree.lua',
+    config = function()
+      require('nvim-tree').setup {
+        sort = {
+          sorter = 'case_sensitive',
+        },
+        view = {
+          width = 30,
+        },
+        renderer = {
+          group_empty = true,
+        },
+        filters = {
+          dotfiles = true,
+        },
+      }
+
+      -- Load nvim-tree
+      vim.api.nvim_set_keymap('n', '<Leader>nt', ':NvimTreeToggle<CR>', { noremap = true, silent = true })
+      vim.api.nvim_set_keymap('n', '<Leader>nf', ':NvimTreeFocus<CR>', { noremap = true, silent = true })
+      vim.api.nvim_set_keymap('n', '<Leader>nr', ':NvimTreeFindFile<CR>', { noremap = true, silent = true })
+      vim.api.nvim_set_keymap('n', '<Leader>nc', ':NvimTreeCollapse<CR>', { noremap = true, silent = true })
+    end,
+  },
+  { 'nvim-tree/nvim-web-devicons' },
+
+  -- Add new plugins here
+  --
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
