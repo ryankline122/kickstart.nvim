@@ -18,7 +18,7 @@ Servers = {
   pyright = {},
 
   -- Java
-  jdtls = {},
+  -- jdtls = {},
 
   -- JS/TS
   ts_ls = {},
