@@ -502,7 +502,7 @@ require('lazy').setup({
   },
   { 'nvim-tree/nvim-web-devicons' },
   { 'alvan/vim-closetag' },
-
+  --
   -- Add new plugins here
   --
 }, {
