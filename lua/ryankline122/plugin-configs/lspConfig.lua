@@ -17,14 +17,11 @@ Servers = {
   -- Python
   pyright = {},
 
-  -- Java
-  -- jdtls = {},
-
   -- JS/TS
   ts_ls = {},
 
   --
-  -- html_lsp = {},
+  omnisharp = {},
 
   -- Lua
   lua_ls = {
@@ -246,6 +243,12 @@ function LSPConfig()
         server.capabilities = vim.tbl_deep_extend('force', {}, capabilities, server.capabilities or {})
         require('lspconfig')[server_name].setup(server)
       end,
+    },
+
+    vim.filetype.add {
+      extension = {
+        vb = 'vb',
+      },
     },
   }
 end

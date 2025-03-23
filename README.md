@@ -26,6 +26,12 @@ Copy the contents of this repo into `C:/Users/Your-Username/AppData/Local/nvim/`
 
 Run `nvim .` and verify configuration loads in properly. 
 
+## Configured Languages
+* HTML/CSS
+* JS/TS
+* Python
+* Java
+* Lua
 
 ## Notes
 * Java LSP requires version 21

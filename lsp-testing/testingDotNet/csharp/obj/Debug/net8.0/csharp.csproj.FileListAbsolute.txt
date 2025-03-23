@@ -1,0 +1,15 @@
+/home/ryan/.config/nvim/lsp-testing/testingDotNet/csharp/bin/Debug/net8.0/csharp
+/home/ryan/.config/nvim/lsp-testing/testingDotNet/csharp/bin/Debug/net8.0/csharp.deps.json
+/home/ryan/.config/nvim/lsp-testing/testingDotNet/csharp/bin/Debug/net8.0/csharp.runtimeconfig.json
+/home/ryan/.config/nvim/lsp-testing/testingDotNet/csharp/bin/Debug/net8.0/csharp.dll
+/home/ryan/.config/nvim/lsp-testing/testingDotNet/csharp/bin/Debug/net8.0/csharp.pdb
+/home/ryan/.config/nvim/lsp-testing/testingDotNet/csharp/obj/Debug/net8.0/csharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/ryan/.config/nvim/lsp-testing/testingDotNet/csharp/obj/Debug/net8.0/csharp.AssemblyInfoInputs.cache
+/home/ryan/.config/nvim/lsp-testing/testingDotNet/csharp/obj/Debug/net8.0/csharp.AssemblyInfo.cs
+/home/ryan/.config/nvim/lsp-testing/testingDotNet/csharp/obj/Debug/net8.0/csharp.csproj.CoreCompileInputs.cache
+/home/ryan/.config/nvim/lsp-testing/testingDotNet/csharp/obj/Debug/net8.0/csharp.sourcelink.json
+/home/ryan/.config/nvim/lsp-testing/testingDotNet/csharp/obj/Debug/net8.0/csharp.dll
+/home/ryan/.config/nvim/lsp-testing/testingDotNet/csharp/obj/Debug/net8.0/refint/csharp.dll
+/home/ryan/.config/nvim/lsp-testing/testingDotNet/csharp/obj/Debug/net8.0/csharp.pdb
+/home/ryan/.config/nvim/lsp-testing/testingDotNet/csharp/obj/Debug/net8.0/csharp.genruntimeconfig.cache
+/home/ryan/.config/nvim/lsp-testing/testingDotNet/csharp/obj/Debug/net8.0/ref/csharp.dll

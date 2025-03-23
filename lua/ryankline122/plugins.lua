@@ -516,6 +516,15 @@ require('lazy').setup({
   { 'nvim-tree/nvim-web-devicons' },
   { 'alvan/vim-closetag' },
   { 'mfussenegger/nvim-jdtls' },
+  {
+    'GustavEikaas/easy-dotnet.nvim',
+    dependencies = { 'nvim-lua/plenary.nvim', 'nvim-telescope/telescope.nvim' },
+    config = function()
+      require 'ryankline122.plugin-configs.dotnet'
+      dotnetConfig()
+    end,
+  },
+
   --
   -- Add new plugins here
   --
