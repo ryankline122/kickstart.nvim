@@ -34,6 +34,9 @@ end)
 -- Enable break indent
 vim.opt.breakindent = true
 
+-- Disable line wrap
+vim.wo.wrap = false
+
 -- indents
 vim.opt.autoindent = true
 vim.opt.tabstop = 4
